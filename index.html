@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- <html lang="en" data-theme="dark"> -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PMS Prototype | Home</title>
+  <!-- Favicon start -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="assets/favicon/favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffe98a">
+  <meta name="msapplication-TileImage" content="assets/favicon/mstile-144x144.png">
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffe98a">
+  <!-- CDN start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CDN end -->
+  <!-- Favicon end -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <!-- <link rel="stylesheet" href="responsive.css"> -->
+
+</head>
+
+<body id="home">
+  <header class="navbar-header">
+    <nav class="container">
+      <div class="nav-left">
+        <img class="brand-logo" src="assets/logo.svg" alt="PMS Prototype" height="40">
+      </div>
+      <div class="nav-middle">
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown-content">
+              <li><a href="#web-services">Web Development</a></li>
+              <li><a href="#ui-ux-services">UI/UX Design</a></li>
+              <li><a href="#database-services">Database Design</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." />
+          <button type="submit" title="Search"><i class="fa fa-search"></i></button>
+        </form>
+        <button class="login-btn" type="button">Login</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main">
+      <div class="hero container">
+        <div class="hero__left">
+          <h1>
+            Your project manager <br />
+            on the web
+          </h1>
+          <p>
+            <strong>PMS Prototype</strong> is a project management platform that helps you <br />
+            manage your projects on the web
+          </p>
+          <button type="button" class="btn">Get Started</button>
+        </div>
+
+        <div class="hero__right">
+          <img src="/assets/img/transparent-box.png" alt="hero image" height="300" width="500">
+        </div>
+      </div>
+      <section class="home__section container">
+
+        <div class="home__left">
+          <h2>Welcome to PMS Prototype</h2>
+          <p>Are you looking for the best project management system for your team?<br>If yes, what are you waiting for?
+          </p>
+          <p>Whether you are an individual or a team, PMS Prototype is here to help you.</p>
+          <ul>
+            <li>Website Development and UI/UX Design</li>
+            <li>Database Design</li>
+            <li>Project Management</li>
+            <li>Graphic Design, and more.</li>
+          </ul>
+          <button class="cta-btn">Learn More</button>
+        </div>
+        <div class="home-right">
+          <img src="assets/img/home-illustration.svg" alt="Illustration" width="400" />
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <!-- <div class="container"> -->
+        <h2>Projects</h2>
+        <p>Are you looking for the best project management system for your team?</p>
+        <div class="project-header">
+          <h3>Our top projects</h3>
+          <p><a href="#">View all projects</a></p>
+        </div>
+        <div class="project-list text-center">
+          <div class="project-card">
+            <img src="https://picsum.photos/id/855/300/200" alt="project image" height="200" width="300">
+            <h4>Project Name</h4>
+            <a href="#" class="btn btn-secondary">More info</a>
+          </div>
+          <div class="project-card">
+            <img src="https://picsum.photos/id/856/300/200" alt="project image" height="200" width="300">
+            <h4>Project Name</h4>
+            <a href="#" class="btn btn-secondary">More info</a>
+          </div>
+          <div class="project-card">
+            <img src="https://picsum.photos/id/857/300/200" alt="project image" height="200" width="300">
+            <h4>Project Name</h4>
+            <a href="#" class="btn btn-secondary">More info</a>
+          </div>
+          <div class="project-card">
+            <img src="https://picsum.photos/id/858/300/200" alt="project image" height="200" width="300">
+            <h4>Project Name</h4>
+            <a href="#" class="btn btn-secondary">More info</a>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section id="services" class="section services-section container">
+        <div class="container">
+          <h2>Our Services</h2>
+          <p>We offer a range of services to meet your project needs. Whether you need a website, UI/UX design, or
+            database solutions, we’ve got you covered.</p>
+          <div class="service-grid">
+            <div class="service-card">
+              <i class="fa fa-code"></i>
+              <h3>Web Development</h3>
+              <p>We build responsive and high-performance websites tailored to your needs.</p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-paint-brush"></i>
+              <h3>UI/UX Design</h3>
+              <p>Our designs focus on user experience to create visually stunning and user-friendly interfaces.</p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-database"></i>
+              <h3>Database Design</h3>
+              <p>Efficient database design and management solutions to support your business.</p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-tasks"></i>
+              <h3>Project Management</h3>
+              <p>We provide tools and support to help you manage projects efficiently.</p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-image"></i>
+              <h3>Graphic Design</h3>
+              <p>Professional graphic design services for logos, branding, and marketing materials.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section container">
+        <div class="about-header">
+          <h2>About PMS Prototype</h2>
+          <p>Your Go-To Solution for Web Development, UI/UX Design, and More</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-left">
+            <h3>Our Mission</h3>
+            <p>To empower individuals and teams by providing cutting-edge project management and development tools that
+              streamline the creation of websites, software, databases, and digital experiences.</p>
+
+            <h3>Our Vision</h3>
+            <p>We envision a world where managing projects and creating web and software solutions is simple,
+              accessible, and efficient for everyone, regardless of their technical background.</p>
+          </div>
+
+          <div class="about-right">
+            <h3>Why Choose Us?</h3>
+            <ul>
+              <li>Comprehensive solutions for web development, UI/UX design, and more</li>
+              <li>Expert team with years of experience</li>
+              <li>User-friendly interfaces designed for accessibility and efficiency</li>
+              <li>Customized services tailored to your needs</li>
+              <li>Dedicated support to ensure your success</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section container">
+        <div class="container">
+          <h2>Get In Touch</h2>
+          <p>We'd love to hear from you! Feel free to reach out for any inquiries or collaboration opportunities.</p>
+
+          <div class="contact-wrapper">
+            <!-- Contact Form -->
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+              <h3>Contact Information</h3>
+              <p><strong>Email:</strong> info@pmsprototype.com</p>
+              <p><strong>Phone:</strong> +123-456-7890</p>
+              <p><strong>Location:</strong> 1234 Project St, Suite 100, Prototype City</p>
+              <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" rel="noopener" title="LinkedIn"><i
+                    class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener" title="Instagram"><i
+                    class="fab fa-instagram"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener" title="Github"><i
+                    class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="col col1">
+        <img src="assets/logo.svg" alt="brand-logo" height="80">
+        <p>PMS Prototype is a project management platform that helps you manage your projects on the web</p>
+        <p>Copyright &copy; 2024, all rights reserved.</p>
+      </div>
+      <div class="col col2">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="col col3">
+        <h3>Social Links</h3>
+        <ul>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="https://facebook.com">Facebook</a></li>
+          <li><a href="https://instagram.com">Instagram</a></li>
+          <li><a href="https://linkedin.com">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="col col4">
+        <h3>Newsletter</h3>
+        <p>Subscribe to our newsletter</p>
+        <form>
+          <input type="email" placeholder="Email Address">
+        </form>
+        <button type="submit">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
